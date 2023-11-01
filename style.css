@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Times New Roman';
+}
+.head{
+    display: flex;
+    height: 13vh;
+    width: 100%;
+    justify-content: space-between;
+    padding: 22px 40px ;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
+    transition:  background-color, 0.5s;
+  
+
+}
+.head h2{
+    font-size: x-large;
+    font-weight: 500;
+    font-style: italic;
+    font-family: sans-serif;
+    color: orangered;
+    margin-left: 30px;
+    cursor: pointer;
+}
+ul li{
+    display: inline-block;
+    margin:  0 12px ;
+}
+ul li a{
+    color: black;
+    font-size: 19px;
+    font-weight: 400;
+    transition: color,0.5s;
+}
+ul li a:hover{
+    color: orangered;
+}
+.oneSection{
+    margin: 0;
+    background-image: url('Image/image1.jpeg');
+  background-position: cover;
+  background-size: 100%;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.oneSection h1{
+    color: white;
+    font-size: 40px;
+    z-index: 1;
+}
+.twoSection{
+    margin: 90px 6%;
+}
+.twoSection p{
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+.active{
+    background-color: black;
+}
+.active a{
+    color: white;
+}
+
